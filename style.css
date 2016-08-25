@@ -1,0 +1,47 @@
+
+/**
+ * AUTOR: Enrique Andrés Martínez Agudelo
+ * AUTOR: 1082905929
+ * DESARROLLO WEB CON PHP
+ * Evidencia: Taller "Uso de formularios para transferencia"
+ */
+body, div, input, label, table, td, textarea, tr {
+    margin: 0;
+    padding: 0;
+    border-spacing: 2px;
+    font: 2.3ex monospace;
+}
+td, .btn, .lugar, .operation {
+    height: 48px;
+}
+td {
+    width: 48px;
+    border-radius: 5px;
+    background-color: #9F9;
+    text-align: center;
+}
+#fila, #lugar {
+    text-align: center;
+    width: 90%;
+    margin: 4px auto;
+    border-radius: 5px;
+}
+.btn, .hijoLugar, .lugar {
+    width: 50%;
+}
+.btn, .lugar, .operation {
+    margin: 2px 0;
+    display: inline;
+    float: left;
+}
+.cinema {
+    width: 312px;
+    margin: 50px auto 0;
+    overflow: hidden;
+}
+.hijoLugar {
+    float: left;
+}
+.operation {
+    width: 33.33%;
+}
